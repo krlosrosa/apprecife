@@ -93,7 +93,6 @@ export default function Counted() {
       />
       <Label>Lote</Label>
       <Input
-        type="number"
         value={lote}
         onChange={(e) => setLote(e.target.value)}
       />
